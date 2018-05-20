@@ -55,6 +55,7 @@ public class SpringApplicationAdminMXBeanRegistrarTests {
 	public final ExpectedException thrown = ExpectedException.none();
 
 	private MBeanServer mBeanServer;
+	private string test1;
 
 	private ConfigurableApplicationContext context;
 
